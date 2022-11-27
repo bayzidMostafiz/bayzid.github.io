@@ -1,0 +1,245 @@
+        /*  =======================
+                All Common Css Start
+            =======================   */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ff1);
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+:root{
+    --praimary-color:#007F5F;
+    --ff1:'Poppins', sans-serif;
+    --peragraph-color:#616161;
+    --heading-color:#1E1E1E;
+}
+
+        /*  =======================
+                All Common Css End
+            =======================   */
+
+            
+            /*  =======================
+                Navbar part start
+            =======================   */
+
+#navbar{
+    padding: 40px 0;
+}
+.navbar-nav li{
+    margin:0 15px;
+}
+.navbar-nav li a{
+    font-family: var(--ff1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--peragraph-color);
+}
+.nav-btn a{
+    padding: 16px 35px;
+    background: var(--praimary-color);
+    border-radius: 17px;
+    font-family: var(--ff1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:white;
+}
+
+          /*  =======================
+                Navbar part end
+            =======================   */
+
+
+          /*  =======================
+                Banner part start
+            =======================   */
+
+#banner{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.4);
+    padding-top: 147px;
+    padding-bottom: 122px;
+}
+.banner-info h2{
+    font-family: var(--ff1);
+    font-size: 65px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding-right: 280px;
+    padding-bottom: 20px;
+}
+.banner-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-family: var(--ff1);
+    padding-right:265px;
+    padding-bottom: 20px;
+    opacity: 0.7;
+    
+}
+.banner-info a{
+    padding: 16px 35px;
+    background: var(--praimary-color);
+    border-radius: 17px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:white;
+    border: none;
+}
+.search_box{
+    padding: 24px 26px;
+    background: white;
+    margin-top: 60px;
+    max-width: 850px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 0px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.search_box .item{
+    display: flex;
+    width: 150px;
+    gap: 10px;
+    
+}
+.search_box .item svg{
+    stroke: var(--praimary-color);
+
+}
+.search_box .search{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.search_box .search select option:nth-child(1){
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #292929;
+}
+.search_box .search select {
+    border: none;
+}
+.search_box .search input{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #222;
+    border: none;
+}
+.search_box .search input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A6A6A;
+}
+
+.search_box .item button{
+    border: none;
+    background: var(--praimary-color);
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.search_box .item button svg{
+    stroke: white;
+    width: 22px;
+    height: 22px;
+}
+
+          /*  =======================
+                Banner part end
+            =======================   */
+
+
+
+
+          /*  =======================
+                Banner part start
+            =======================   */
+
+            #travel{
+                padding: 150px;
+            }
+            #travel .common_heading{
+              margin: 0 auto;
+              text-align: center;
+              padding-bottom: 121px;
+            }
+            .travel{
+                display: flex;
+            }
+            .travel_item{
+                background: var(--white);
+                border-radius: 15px;
+                margin-bottom: 24px;
+                transition: all linear .3s;
+            }
+            .travel_item:hover{
+                box-shadow: var(--box-shadow);
+            }
+            .travel_item .icon{
+                background: rgba(0, 127, 95, 0.1);
+                border-radius: 14px;
+                width: 84.4px;
+                height: 78px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .travel_item .info{
+                padding-right: 150px;
+            }
+            .travel_item .info h3{
+                font-family: var(--ff1);
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 24px;
+                padding-top: 40px;
+            }
+            .travel_item .info p{
+                font-family: var(--ff1);
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                color: var(--pregraph);
+            }
+             
+
+          /*  =======================
+                Banner part end
+            =======================   */
+          /*  =======================
+                Banner part start
+            =======================   */
+          /*  =======================
+                Banner part end
+            =======================   */
+
+   
