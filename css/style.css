@@ -25,6 +25,26 @@ a:hover{
     --peragraph-color:#616161;
     --heading-color:#1E1E1E;
 }
+.common_heading{
+    max-width: 692px;
+    margin: 0 auto;
+    text-align: center;
+}
+.common_heading h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    color: var(--heading-color);
+    padding-bottom: 20px;
+}
+.common_heading p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--peragraph-color);
+    
+}
 
         /*  =======================
                 All Common Css End
@@ -57,6 +77,7 @@ a:hover{
     font-size: 16px;
     line-height: 24px;
     color:white;
+    text-decoration: none;
 }
 
           /*  =======================
@@ -177,61 +198,270 @@ a:hover{
                 Banner part end
             =======================   */
 
+          /*  =======================
+                travel part start
+            =======================   */
+#travel{
+    padding-top: 150px;
+}
+.travel_item{
+    padding: 50px;
+}
+.travel_item:hover{
+    background: white;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 14px;
+}
+.travel_item .image{
+    width: 84px;
+    height: 75px;
+    background: rgba(0, 127, 95, 0.1);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.travel_item .info h3{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: var(--heading-color);
+    padding-bottom: 12px;
+}
+.travel_item .info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--peragraph-color);
+    padding-right: 42px;
+}
+
+          /*  =======================
+                travel part end
+            =======================   */
+
+
+          /*  =======================
+                Popular part start
+            =======================   */
+#popular{
+    padding-top: 100px;
+}
+#popular .common_heading{
+    margin: 0 auto;
+    text-align: center;
+}
+.popular_item{
+    padding: 20px;
+    border-radius: 14px;
+    margin: 15px ;
+}
+.slick-center .popular_item{
+    background: #FFFFFF;
+    
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+}
+.popular_item .image{
+    overflow: hidden;
+    border-radius: 14px;
+}
+.popular_item .image img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.popular_item .stars{
+    padding-top: 40px;
+    color: #E0E0E0;
+}
+.popular_item .stars span{
+    color: #FF8B00;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 5px;
+}
+.popular_item .stars .star-1{
+    color: #FF8B00;
+}
+.popular_item h3{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: var(--heading-color);
+    padding-top: 10px;
+}
+.popular_item p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--peragraph-color);
+    padding-top: 15px;
+}
+.popular_item .dollar b{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: var(--heading-color);
+}
+.popular_item .dollar span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: var(--peragraph-color);
+}
+.popular_item a{
+    padding: 10px 35px;
+    border-radius: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--praimary-color);
+    margin-top: 30px;
+    border: 2px solid var(--praimary-color);
+
+}
+.slick-center .popular_item a{
+    padding: 10px 35px;
+    border-radius: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color:#fff ;
+    background: var(--praimary-color);
+    margin-top: 30px;
+    border: 2px solid var(--praimary-color);
+
+}
+
+
+
+/*  =======================
+                Popular part end
+            =======================   */
+
+
+          /*  =======================
+                Discover part start
+            =======================   */
+#discover{
+    padding-top: 150px;
+    background: rgba(30, 30, 30, 0.05);
+    
+}
+.discover .left {
+    padding-right: 50px;
+    padding-top: 40px;
+}
+.discover .left h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    color: var(--heading-color);
+}
+.discover .left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--peragraph-color);
+}
+.discover .left .text_main .check{
+    margin-right: 10px;
+}
+
+.discover .left .text_main .check i{
+    color: var(--praimary-color);
+    
+}
+.discover .left a{
+    padding: 16px 35px;
+    background: var(--praimary-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 17px;
+    color: white;
+    margin-top: 40px;
+    
+}
+.right{
+    padding-left: 100px;
+    flex-wrap: wrap;
+}
+.right .item{
+    padding: 62px 32px;
+    margin-right: 30px;
+    background: white;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 17px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.right .item:hover{
+    background: var(--praimary-color);
+    color: #fff;
+}
+
+.right .item .icon{
+    width: 74px;
+    height: 78px;
+    background: rgba(0, 127, 95, 0.1);
+    border-radius: 14px;
+    margin-bottom: 20px;
+}
+.right .item:hover .icon{
+    background: #fff;
+}
+.right .item:hover .info h3 {
+    color: #fff;
+}
+.right .item .info h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    color: var(--heading-color);
+}
+.right .item .info p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: var(--peragraph-color);
+}
+.right .item:hover .info p {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+          /*  =======================
+                Discover part end
+            =======================   */
+
+
+
 
 
 
           /*  =======================
                 Banner part start
             =======================   */
-
-            #travel{
-                padding: 150px;
-            }
-            #travel .common_heading{
-              margin: 0 auto;
-              text-align: center;
-              padding-bottom: 121px;
-            }
-            .travel{
-                display: flex;
-            }
-            .travel_item{
-                background: var(--white);
-                border-radius: 15px;
-                margin-bottom: 24px;
-                transition: all linear .3s;
-            }
-            .travel_item:hover{
-                box-shadow: var(--box-shadow);
-            }
-            .travel_item .icon{
-                background: rgba(0, 127, 95, 0.1);
-                border-radius: 14px;
-                width: 84.4px;
-                height: 78px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .travel_item .info{
-                padding-right: 150px;
-            }
-            .travel_item .info h3{
-                font-family: var(--ff1);
-                font-weight: 500;
-                font-size: 25px;
-                line-height: 24px;
-                padding-top: 40px;
-            }
-            .travel_item .info p{
-                font-family: var(--ff1);
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 30px;
-                color: var(--pregraph);
-            }
-             
-
           /*  =======================
                 Banner part end
             =======================   */
